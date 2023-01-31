@@ -1,0 +1,110 @@
+@import "../../node_modules/antd/lib/style/themes/default.less";
+@import "../../node_modules/antd/dist/antd.less";
+// 引入官方提供的 less 样式入口文件
+@import "./base.less";
+@import "./init.less";
+
+#root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* ---------------------------- 404 ---------------------------- */
+.nothing-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+  .run-img {
+    border-radius: 20px;
+    // box-shadow: rgba(0, 0, 0, 0.08) 0px 6px 16px -8px,
+    //   rgba(0, 0, 0, 0.05) 0px 9px 28px 0px,
+    //   rgba(0, 0, 0, 0.03) 0px 12px 48px 16px;
+  }
+
+  .right-info {
+    flex: 0 0 337px;
+    width: 337px;
+    overflow: hidden;
+    margin-left: 40px;
+
+    h1 {
+      font-size: 60px;
+      color: @text-color;
+      line-height: 70px;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 18px;
+      color: @text-color-secondary;
+      line-height: 30px;
+      margin-top: 20px;
+    }
+
+    .go-home {
+      font-size: 18px;
+      color: @primary-color;
+      line-height: 30px;
+      margin-top: 20px;
+    }
+  }
+}
+
+.no-data-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+#components-layout-demo-side .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+//.site-layout .site-layout-background {
+//  background: #fff;
+//}
+
+.site-layout {
+  background: #f0f4f6;
+}
+
+.site-layout-background-header {
+  background: #fff;
+}
+
+
+.site-layout-background-main {
+  background: #f0f4f6;
+}
+
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+.ant-badge-status-processing {
+  background-color: #52c41a;
+}
+.ant-badge-status-processing::after {
+  border: 1px solid #52c41a;
+}
+.ant-badge-status-dot {
+  width: 7px;
+  height: 7px;
+}

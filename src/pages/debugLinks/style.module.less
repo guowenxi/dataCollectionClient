@@ -1,0 +1,139 @@
+
+.debugLinks {
+  display: flex;
+
+  .left {
+    height: 80vh;
+    width: 20%;
+    background: #fff;
+    margin-right: 10px;
+    padding: 20px;
+
+    .links {
+      height: 90%;
+      margin: 20px 0;
+      border-radius: 2px;
+      border: 1px solid #e7ecef;
+
+
+      .item {
+        padding: 10px;
+        cursor: pointer;
+        text-overflow: ellipsis; /*让截断的文字显示为点点。还有一个值是clip意截断不显示点点*/
+        white-space: nowrap; /*让文字不换行*/
+        overflow: hidden; /*超出要隐藏*/
+      }
+
+      //.item:nth-child(1) {
+      //  background: rgba(240, 244, 246, 1);
+      //}
+
+    }
+  }
+
+  .right {
+    height: 80vh;
+    width: 80%;
+    margin-left: 10px;
+
+    .r-top {
+      background: #fff;
+      height: 8%;
+      padding: 20px;
+      align-items: center;
+      display: flex;
+
+      .rt-left {
+        flex: 1;
+        display: flex;
+
+        .rtl-title {
+          font-weight: 700;
+          color: #333333;
+          font-size: 14px;
+        }
+
+        .rtl-run {
+          margin-left: 20px;
+        }
+      }
+
+      .rt-right {
+        button {
+          margin-left: 10px;
+        }
+      }
+
+
+    }
+
+  }
+
+}
+
+
+.links-info {
+
+  .ljfs {
+    .ljfs-title {
+      font-size: 17px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  }
+
+  .jccs {
+    .jccs-title {
+      font-size: 17px;
+      font-weight: bold;
+      margin: 30px 0 20px 0;
+    }
+  }
+
+  .gjcs {
+    .gjcs-title {
+      font-size: 17px;
+      font-weight: 500;
+      margin: 30px 0 20px 0;
+    }
+  }
+
+  .btn {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    button {
+      margin-left: 10px;
+    }
+  }
+
+}
+
+.m-box {
+
+  .mb-row2 {
+    display: flex;
+
+    .mbr-left {
+      flex: 1;
+      margin-right: 10px;
+    }
+
+    .mbr-right {
+      flex: 1;
+      margin-left: 10px;
+    }
+  }
+
+  .mb-biaoshi {
+    hr {
+      border: 1px solid #e7ecef;
+    }
+
+    div {
+      text-align: left;
+      margin: 20px 0;
+      font-weight: 500;
+    }
+  }
+}

@@ -1,0 +1,6 @@
+import{c as d,R as a,bT as r}from"./index.1744db00.js";import{s as o}from"./SearchMore.b58ad9fc.js";import{w as l,S as n}from"./index.2cf55c0b.js";import{_ as c}from"./index.ba1b5373.js";import{F as u}from"./index.a10c21c4.js";import"./index.94ba65ab.js";import"./index.0b2062c9.js";import"./Table.e070c8af.js";import"./Pagination.88552979.js";import"./index.54246283.js";import"./index.4d18e0ae.js";import"./index.2f265e7d.js";const f=o(c)`
+  width: 100%;
+  && {
+    padding: 1vh;
+  }
+`,b=s=>{const e=s.conf,{name:m}=s;return a.createElement(l.Consumer,null,i=>{switch(i.state){case"default":return a.createElement(n,null,e.defaultValue||"\u3000");case"edit":case"new":case"disabled":return a.createElement(u.Item,{name:m,rules:s.rules},a.createElement(f,{style:e.style,showTime:e.showTime,disabledDate:t=>{if(typeof e.disabledDate=="function")return e.disabledDate(t);if(e.disabledDate===">")return t&&t>Number(r().endOf("day").subtract(1,"days"));if(e.disabledDate==="<")return t&&t<Number(r().endOf("day").subtract(1,"days"))},disabledTime:e.showTime&&e.disabledTime?e.disabledTime:null,disabled:i.state==="disabled",format:e.showTime?"YYYY/MM/DD HH:mm:ss":"YYYY/MM/DD"}))}})};var x=d(({})=>({}))(b);export{x as default};

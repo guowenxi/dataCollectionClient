@@ -1,0 +1,6 @@
+import{c as p,_ as o,R as a}from"./index.f93312c7.js";import{s as d}from"./SearchMore.4899ea4e.js";import{w as u,S as f}from"./index.c4c63bae.js";import{b as h}from"./index.ec6ab6c1.js";import{F as y}from"./index.c802a758.js";import"./index.8ec8c198.js";import"./index.e947031a.js";import"./index.d1220381.js";import"./Table.7058c2c1.js";import"./Pagination.b9ae5048.js";import"./index.de78d9fa.js";import"./index.9add2654.js";const k=d(h)`
+  && {
+    padding: 1vh;
+  }
+`,x=s=>{const e=s.conf,{name:r}=s,c=o.exports.useContext(u),[l,m]=o.exports.useState("");return o.exports.useEffect(()=>{const t=c.form.getFieldValue(r);m(t)},[]),a.createElement(u.Consumer,null,t=>{switch(t.state){case"default":return a.createElement(f,null,e.defaultValue||"\u3000");case"edit":case"new":case"disabled":return a.createElement(y.Item,{name:r,rules:s.rules},a.createElement(k,{style:e.style,disabled:t.state==="disabled",placeholder:e.placeholder,size:e.size,value:l,checked:l,onChange:n=>{const i=n.target.checked;c.form.setFieldsValue({[r]:i}),m(i),e.relateNames&&t.focus$.emit({relateNames:e.relateNames,relatekeys:e.relatekeys,type:e.clickType?e.clickType:"onChange",value:n})}},e.displayName?e.displayName:""))}})};var z=p(({})=>({}))(x);export{z as default};
+//# sourceMappingURL=checkBox.cedf5f72.js.map

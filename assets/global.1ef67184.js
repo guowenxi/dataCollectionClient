@@ -1,0 +1,2 @@
+var i=Object.defineProperty;var n=(a,t,r)=>t in a?i(a,t,{enumerable:!0,configurable:!0,writable:!0,value:r}):a[t]=r;var o=(a,t,r)=>(n(a,typeof t!="symbol"?t+"":t,r),r);import{c as E}from"./utils.db131452.js";let e="";(function(){e=window.location.href.indexOf("rbacToken")>0?E("rbacToken"):{}.VITE_ENV})();class c{}o(c,"amapkey",{}.VITE_ENV||""),o(c,"mapCenter",{}.VITE_ENV),o(c,"rootUrl",{}.VITE_ENV),o(c,"rbacToken",e),o(c,"loginUrl",{}.VITE_ENV);export{c as G};
+//# sourceMappingURL=global.1ef67184.js.map

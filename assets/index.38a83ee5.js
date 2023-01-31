@@ -1,0 +1,2 @@
+import{c as a,R as e,L as n}from"./index.f93312c7.js";var c="/assets/vite.8cf2b2c2.png",l="";const r=t=>(console.log(t),e.createElement(e.Fragment,null,e.createElement("img",{src:c,style:{width:"50px",height:"50px"}}),e.createElement("div",{className:l.title},"Welcome Login"),e.createElement(n,{to:"/basicLayout/modularManage"},"\u767B\u5F55")));var i=a(({common:t})=>({common:t}))(r);export{i as default};
+//# sourceMappingURL=index.38a83ee5.js.map
